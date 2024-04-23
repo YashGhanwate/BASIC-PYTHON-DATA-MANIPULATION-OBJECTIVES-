@@ -265,3 +265,212 @@ Q4).Write a Python function sort_numbers that takes a list of numbers as input a
 .
 
 
+
+### Class Creation:
+.
+
+---Attributes define object properties, methods represent behaviors, and __init__() initializes attributes. 
+---Objects are created by calling the class name with parentheses. 
+---This process enables structured programming, code reusability, and encapsulation in Python
+
+.
+
+Q1).How can you define a simple class in Python?
+.
+![Screenshot 2024-04-23 163553](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/452c7b41-86c0-4f12-b173-ecc724ac0904)
+.
+
+Q2).What is the purpose of the __init__ method in a Python class?
+.
+![Screenshot 2024-04-23 163715](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/f64d64fb-27f3-427b-adde-5c94fc7c7b34)
+.
+
+Q3).How can you create multiple objects of the same class with different initial values?
+.
+![Screenshot 2024-04-23 163846](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/008f0b03-12dc-46fa-b170-14b185a9952e)
+.
+
+Q4).4.Create a Python class called Rectangle. The class should have attributes width and height, and methods area() to calculate the area of the rectangle and perimeter() to calculate the perimeter of the 
+    rectangle.
+.
+![Screenshot 2024-04-23 164004](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/b8e05b6f-817c-4df6-8fca-06eafefcd7bb)
+.
+
+
+#### Class Inheritance:
+.
+---The subclass inherits all superclass attributes and methods and can define its own.
+---This promotes code reuse, facilitates modular design, and encourages hierarchy-based organization in object-oriented 
+   programming.
+---Subclasses can extend or override superclass behavior, enhancing flexibility and customization. Overall, inheritance
+   fosters efficient and structured development by allowing classes to build upon existing functionalities while maintaining
+   a clear and organized codebase.
+
+.
+
+Q1).What is class inheritance, and how can you create a subclass in Python?
+.
+![Screenshot 2024-04-23 164146](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/f860beda-e4a7-48a4-97c1-8eb3bb78c41c)
+.
+
+Q2).How can you override a method from the parent class in the subclass?
+.
+![Screenshot 2024-04-23 164259](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/60fc925e-a1c3-42a1-93f4-c0eaffb85df8)
+.
+
+Q3).Can a subclass have its own attributes and methods in addition to inheriting from the parent class?
+.
+![Screenshot 2024-04-23 164412](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/35f75de0-d85c-4b38-93a7-9aea57073d93)
+.
+
+Q4).4.Create a Python class called Animal. This class should have an attribute name and a method speak() that prints a message indicating the type of sound the animal makes. Then, create a subclass called Dog 
+    that inherits from Animal. The Dog class should have an additional attribute breed and override the speak() method to print a specific message for a dog's sound.
+.
+![Screenshot 2024-04-23 164528](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/740cbde1-5bbc-47db-8f5a-ac64cd492c0e)
+.
+
+#### looping statements:
+.
+---Looping statements in programming, like "for" and "while" loops, repeatedly execute a block of code
+   until a specified condition is met.
+---Syntax varies but typically includes an iteration variable and a condition
+---For loops iterate over each element in an iterable, while while loops continue executing as long as a condition is true.
+---Looping statements are fundamental for automating repetitive tasks and iterating over data structures in programming.
+.
+FORLOOP:
+.
+
+Q1).How can you use a for loop to iterate over elements in a list and print each element?
+.
+![Screenshot 2024-04-23 164740](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/80405eef-e1a7-4661-b5f8-ee751fdf02d8)
+.
+
+Q2).Can you use a for loop to iterate over characters in a string and count the occurrences of a specific character?
+.
+![Screenshot 2024-04-23 164838](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/f2463111-551b-46c6-90c6-732f27e82923)
+.
+
+Q3).How would you use a for loop to iterate over key-value pairs in a dictionary and print each pair?
+.
+![Screenshot 2024-04-23 165018](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/f03ee2ab-3b5a-417c-a7f1-fe115e41178d)
+.
+
+Q4).Write a Python function called sum_of_list that takes a list of numbers as input and returns the sum of all the numbers using a for loop.
+.
+![Screenshot 2024-04-23 165120](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/1287d55d-cc14-4adc-b710-dc064e517c47)
+.
+
+WHILELOOP:
+.
+Q1).How can you use a while loop to print numbers from 1 to 5?
+.
+![Screenshot 2024-04-23 165308](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/3b472802-775e-4917-85e8-344dde231d9d)
+.
+
+Q2).Can you use a while loop to find the factorial of a given number?
+.
+![Screenshot 2024-04-23 165424](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/e030d3a8-48ec-47a4-b076-164e1df7a9a6)
+.
+
+Q3).How would you use a while loop to iterate over elements in a list until a specific condition is met?
+.
+![Screenshot 2024-04-23 165535](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/5665a22d-e5bc-45aa-9bd2-4fdc37a16881)
+.
+
+Q4).Write a Python function called count_down that takes a positive integer n as input and prints a countdown from n to 1 using a while loop.
+.
+![Screenshot 2024-04-23 165633](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/42e82fe3-8a02-428d-8f09-e09735dc7217)
+.
+
+
+#### Lambda Function:
+.
+---A lambda function in Python is a small, anonymous function defined using the lambda keyword. 
+---Syntax: lambda arguments: expression. 
+---It's primarily used for one-line operations and is often passed as an argument to higher-order functions 
+   like map(), filter(), and sorted(). Example: double = lambda x: x * 2.
+---Lambda functions are concise and handy for quick operations without the need for a formal function definition,
+   enhancing code readability and reducing verbosity in certain contexts.
+.
+
+Q1).How can you define a lambda function to calculate the square of a number?
+.
+![Screenshot 2024-04-23 165812](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/a2129984-2efc-4e3a-97db-419740c828f9)
+.
+
+Q2).Can you use a lambda function to add two numbers together?
+.
+![Screenshot 2024-04-23 165928](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/f2fd3010-91a4-4a05-973f-24023fd5e0fe)
+.
+
+Q3).How would you sort a list of tuples based on the second element of each tuple using a lambda function?
+.
+![Screenshot 2024-04-23 170020](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/ce772c4a-ccac-4a80-a859-2d59ddf046dc)
+.
+
+Q4)4.Write a Python function called multiply_by_two that takes a list of numbers as input and returns a new list where each number is multiplied by 2. Use a lambda function to perform the multiplication.
+.
+![Screenshot 2024-04-23 170119](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/c1f918f7-eb02-4cd2-9358-a16eadc9b9db)
+.
+
+#### Pandas Module:
+.
+---The Pandas module in Python provides powerful data manipulation and analysis tools, primarily through 
+   its DataFrame data structure. 
+---It offers functionality for handling structured data, including reading and writing various file formats, data cleaning,
+   filtering, grouping, and statistical analysis. 
+---Syntax: import pandas as pd. 
+---Pandas is widely used in data science and analytics for tasks like data preprocessing, exploration,
+   and visualization, making it an essential tool in the Python ecosystem for working with tabular data efficiently 
+   and effectively.
+.
+
+Data Loading and DataFrame Creation:
+.
+
+Q1).How can you import the Pandas module in Python?
+.
+![Screenshot 2024-04-23 170442](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/53b9782d-278a-4dc5-9929-9f69502cc4ec)
+.
+
+Q2).Create a Pandas DataFrame manually from a dictionary of lists containing information about students (name, age, and grade).
+.
+![Screenshot 2024-04-23 170534](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/b28a5f3f-0633-4b5a-beae-10f8f28a9376)
+.
+
+Q3).What method can you use to create a DataFrame from a dictionary?
+.
+![Screenshot 2024-04-23 170640](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/5b80e669-53a9-4eb7-9984-8d5cd4a6104c)
+.
+
+Q4).Write Python code to create a Pandas DataFrame from a list of dictionaries containing information about books (title, author, and publication year).
+.
+
+
+Data Exploration and Manipulation:
+
+Q1).How can you display the first few rows of a DataFrame?
+![Screenshot 2024-04-23 170826](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/a7165eb2-9d08-4bb8-a4dc-21049be8873d)
+![Screenshot 2024-04-23 171253](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/23fda9f2-0d00-4ae5-b38f-8576ce9c30d5)
+
+.
+
+
+Q2)2.Given a Pandas DataFrame sales_data containing sales information (date, product, quantity, and price), write Python code to:
+Calculate the total sales amount (quantity * price) for each row and add it as a new column named "total_sales".
+Group the DataFrame by product and calculate the total sales amount for each product.
+Sort the resulting DataFrame by total sales amount in descending order.
+.
+![Screenshot 2024-04-23 171056](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/4ce7f8fa-157c-42d0-a93c-c806e65d05d6)
+.
+
+Q3)3.Given a Pandas DataFrame df containing information about students (name, age, and grade), write Python code to:
+Display the first five rows of the DataFrame.
+Calculate the mean age of the students.
+Filter the DataFrame to include only students with a grade greater than or equal to 80.
+Sort the DataFrame by grade in descending order.
+Display the top three rows of the sorted DataFrame.
+.
+![Screenshot 2024-04-23 171230](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/a81253b5-1482-49d6-b801-be809aa94615)
+![Screenshot 2024-04-23 171241](https://github.com/YashGhanwate/BASIC-PYTHON-DATA-MANIPULATION-OBJECTIVES-/assets/164736496/192fc985-fd1f-4748-b4bc-97cdee03ea36)
+.
